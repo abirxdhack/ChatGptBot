@@ -1,7 +1,7 @@
 import aiohttp
 from pyrogram import Client, filters
 from pyrogram.enums import ParseMode
-from config import GPT_API_KEY, API_ID, API_HASH, BOT_TOKEN
+from config import GPT_API_KEY, API_ID, API_HASH, API_TOKEN
 
 async def fetch_gpt_response(prompt, model):
     async with aiohttp.ClientSession() as session:
